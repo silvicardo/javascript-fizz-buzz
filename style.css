@@ -1,6 +1,41 @@
+/* FizzBuzz - style.css*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+}
+
+.main_cnt {
+  width: 100vw;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/wczfl6k/red-and-blue-intersecting-line-background-loop_4yowadobx__F0000.png');
+
+}
+
+.main_cnt header {
+  margin-bottom: 50px;
+  padding: 40px;
+  border-radius: 15px;
+  font-size: 60px;
+  background: white;
+}
+
+.main_cnt ul {
+  padding: 30px 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 40px;
+  list-style: none;
+  background: white;
+}
+
+.main_cnt ul li {
+  margin-bottom: 30px;
 }
